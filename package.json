@@ -13,5 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "live-server": "^1.2.0"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.5.3",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0"
   }
 }

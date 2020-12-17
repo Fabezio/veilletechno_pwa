@@ -1,28 +1,40 @@
 {
-    "technos": [
-        {
-            "id": 1,
-            "name": "Angular",
-            "description": "le framework front-end",
-            "url": "https://angular.io/"
-        },
-        {
-            "id": 2,
-            "name": "Node",
-            "description": "JavaScript côté back-end",
-            "url": "https://nodejs.org/fr/"
-        },
-        {
-            "id": 3,
-            "name": "MongoDB",
-            "description": "la célèbre base noSQL",
-            "url": "https://www.mongodb.com/"
-        },
-        {
-            "id": 4,
-            "name": "PWA",
-            "description": "rendre vos applications ++",
-            "url": "https://developer.mozilla.org/en-US/Apps/Progressive"
-        }
-    ]
+  "technos": [
+    {
+      "id": 1,
+      "name": "Angular",
+      "description": "le framework front-end",
+      "url": "https://angular.io/"
+    },
+    {
+      "id": 2,
+      "name": "Node",
+      "description": "JavaScript côté back-end",
+      "url": "https://nodejs.org/fr/"
+    },
+    {
+      "id": 3,
+      "name": "MongoDB",
+      "description": "la célèbre base noSQL",
+      "url": "https://www.mongodb.com/"
+    },
+    {
+      "id": 4,
+      "name": "PWA",
+      "description": "rendre vos applications ++",
+      "url": "https://developer.mozilla.org/en-US/Apps/Progressive"
+    },
+    {
+      "name": "Svelte",
+      "description": "web framework nouvelle generation",
+      "url": "https://svelte.dev/",
+      "id": 5
+    },
+    {
+      "name": "Meteor",
+      "description": "Framework JS FullStack",
+      "url": "https://www.meteor.com/",
+      "id": 6
+    }
+  ]
 }

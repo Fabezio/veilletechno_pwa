@@ -1,0 +1,32 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+$theme-colors: (
+    "diamond": #b9f2ff,
+    "ruby": #9b111e,
+    "emerald": #50c878,
+    "lapis-lazuli": #26619c,
+    "saphir": #6977a1,
+    // "rainbow": linear-gradient(left, red, orange, yellow, green, blue, indigo, violet)
+);
+
+body {
+    background-color: $dark;
+    color: $light;
+}
+
+main {
+    margin: 8px 8px;
+
+}
+
+a {
+    color: $info;
+}
+
+nav {
+    border-bottom: 1px solid $secondary;
+    text-transform: uppercase;
+    padding: 8px 0;
+    // background: linear-gradient(left, red, orange, yellow, green, blue, indigo, violet) !important;
+}
+
