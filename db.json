@@ -35,6 +35,12 @@
       "description": "Framework JS FullStack",
       "url": "https://www.meteor.com/",
       "id": 6
+    },
+    {
+      "name": "Mongoose",
+      "description": "pour faciliter l'intégration dans mongoDB",
+      "url": "https://mongoosejs.com/",
+      "id": 7
     }
   ]
 }
