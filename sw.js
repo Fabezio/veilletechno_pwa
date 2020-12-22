@@ -61,7 +61,11 @@ self.addEventListener('fetch', evt => {
 })
 const options = {
   body: 'Je suis persistante',
-  icon: 'icon/apple-icon-76x76-dunplab-manifest-32518.png'
+  icon: 'icon/apple-icon-76x76-dunplab-manifest-32518.png',
+  actions: [
+    { action: 'accept', title: 'accepter' },
+    { action: 'refuse', title: 'refuser' }
+  ]
 }
 self.registration.showNotification('notification coté service worker', options)
 
